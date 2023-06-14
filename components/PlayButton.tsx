@@ -13,7 +13,7 @@ const PlayButton: React.FC<PlayButtonProps> = ({
 
     return (
         <button
-        onClick={() => router.push(`/watch/${movieId}`)}
+            onClick={() => router.push(`/watch/${movieId}`)}
             className='
                 bg-white 
                 rounded-md 
